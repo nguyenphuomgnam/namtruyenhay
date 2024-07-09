@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    background-color: rgb(242, 234, 236);
+}
+#menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 14px;
+  overflow: hidden;
+  background-color: rgb(31, 9, 62);
+}
+.chieumenu {
+    float: left;
+    margin-left: 40px;
+}
+.luachon {
+    display: block;
+  color: rgb(7, 36, 255);
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+  border: 1px solid rgb(7, 36, 255);
+  border-radius: 6px;
+  box-shadow: 1px 1px 6px rgb(7, 36, 255);;
+}
+li a:hover {
+   background-color: black;
+}
+.ngang {
+    display: flex;
+    flex-direction: row;
+}
+.doc {
+    display:flex;
+    flex-direction: column;
+}
+.giua-doc {
+    display: flex;
+    justify-content: center;
+}
+.giua-ngang {
+    align-items: center;
+}
+#logo {
+    width: 40%;
+height: 100%;
+}
+#timkiem {
+    display: block;
+    text-align: center;
+    padding: 14px 14px;
+    border: 1px solid rgb(54, 50, 58);
+    border-radius: 6px;
+    box-shadow: 1px 1px 6px rgb(54, 50, 58);
+    background-color: black
+}
+.daude {
+    display: block;
+    text-decoration: none;
+    color: rgb(105, 105, 102);
+    font-size: 19px;
+    font-family:cursive;
+}
+a.daude:hover {
+    color: #ff08de;
+}
